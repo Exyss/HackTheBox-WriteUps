@@ -86,7 +86,7 @@ As we can see, there are two interesting plaintext data regarding the SQL user `
 Once we have found the credentials, we can try accessing the SQL service by using Impacket's [mssqlclient.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py) script and trying to run a query to find out if our current user has admin priviledges:
 
 ```sql
-[exyss@exyss Archetype]$ python https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py ARCHETYPE/sql_svc@10.10.10.27 -windows-auth
+[exyss@exyss Archetype]$ python mssqlclient.py ARCHETYPE/sql_svc@10.10.10.27 -windows-auth
 Impacket v0.9.23 - Copyright 2021 SecureAuth Corporation
 
 Password:

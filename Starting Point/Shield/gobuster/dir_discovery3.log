@@ -1,0 +1,6 @@
+/Themes               (Status: 301) [Size: 170] [--> http://10.10.10.29/wordpress/wp-content/Themes/]
+/index.php            (Status: 200) [Size: 0]
+/plugins              (Status: 301) [Size: 171] [--> http://10.10.10.29/wordpress/wp-content/plugins/]
+/themes               (Status: 301) [Size: 170] [--> http://10.10.10.29/wordpress/wp-content/themes/]
+/upgrade              (Status: 301) [Size: 171] [--> http://10.10.10.29/wordpress/wp-content/upgrade/]
+/uploads              (Status: 301) [Size: 171] [--> http://10.10.10.29/wordpress/wp-content/uploads/]
