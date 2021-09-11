@@ -1,0 +1,4 @@
+# Nmap 7.92SVN scan initiated Fri Sep 10 10:42:44 2021 as: nmap -sC -sV -oN nmap/second.log horizontall.htb
+Failed to resolve "horizontall.htb".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Fri Sep 10 10:42:50 2021 -- 0 IP addresses (0 hosts up) scanned in 6.02 seconds

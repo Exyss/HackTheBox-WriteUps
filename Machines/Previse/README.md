@@ -125,7 +125,7 @@ Now we can upgrade our shell by running `/usr/bin/script -qc /bin/bash /dev/null
 
 Since we know the MySQL root user's password, we can access it by running `mysql -u root -p previse`
 
-We can list all the user passwords by running the query 'SELECT * FROM accounts', finding m4lwhere's password: `$1$🧂llol$DQpmdvnb7EeuO6UaqRItf.`
+We can list all the user passwords by running the query `SELECT * FROM accounts`, finding m4lwhere's password: `$1$🧂llol$DQpmdvnb7EeuO6UaqRItf.`
 
 We can now use John the Ripper to crack this hash and find the password, which is: `ilovecody112235!`. We can now SSH into the machine as m4lwhere and get the user flag
 
