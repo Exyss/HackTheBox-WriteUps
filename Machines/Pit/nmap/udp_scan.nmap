@@ -1,0 +1,11 @@
+# Nmap 7.92SVN scan initiated Mon Sep 13 11:46:53 2021 as: nmap -sU -oA nmap/udp_scan -vv 10.10.10.241
+Increasing send delay for 10.10.10.241 from 800 to 1000 due to 11 out of 23 dropped probes since last increase.
+Nmap scan report for 10.10.10.241
+Host is up, received echo-reply ttl 63 (0.045s latency).
+Scanned at 2021-09-13 11:47:07 CEST for 997s
+Not shown: 999 filtered udp ports (admin-prohibited)
+PORT    STATE SERVICE REASON
+161/udp open  snmp    udp-response ttl 63
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Mon Sep 13 12:03:45 2021 -- 1 IP address (1 host up) scanned in 1011.31 seconds

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92SVN scan initiated Mon Sep 13 11:27:16 2021 as: nmap -p- -oA nmap/all_ports -vv 10.10.10.241 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/all_ports -vv 10.10.10.241" start="1631525236" startstr="Mon Sep 13 11:27:16 2021" version="7.92SVN" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1631525237"/>
+<hosthint><status state="up" reason="host-unreach" reason_ttl="0"/>
+<address addr="10.10.10.241" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1631525237" extrainfo="1 total hosts"/>
+<taskbegin task="Connect Scan" time="1631525237"/>
+<taskprogress task="Connect Scan" time="1631525268" percent="0.57"/>
+<taskprogress task="Connect Scan" time="1631525298" percent="1.33" remaining="4524" etc="1631529821"/>
+<taskprogress task="Connect Scan" time="1631525328" percent="2.19" remaining="4065" etc="1631529393"/>
+<taskprogress task="Connect Scan" time="1631525358" percent="3.06" remaining="3837" etc="1631529195"/>
+<taskprogress task="Connect Scan" time="1631525388" percent="4.03" remaining="3601" etc="1631528988"/>
+<taskprogress task="Connect Scan" time="1631525418" percent="5.09" remaining="3375" etc="1631528792"/>
+<taskprogress task="Connect Scan" time="1631525451" percent="6.28" remaining="3196" etc="1631528646"/>
+<taskprogress task="Connect Scan" time="1631525484" percent="7.63" remaining="2993" etc="1631528476"/>
+<taskprogress task="Connect Scan" time="1631525523" percent="9.19" remaining="2827" etc="1631528349"/>
+<taskprogress task="Connect Scan" time="1631525556" percent="10.68" remaining="2669" etc="1631528224"/>
+<taskprogress task="Connect Scan" time="1631525598" percent="12.62" remaining="2500" etc="1631528098"/>
+<taskprogress task="Connect Scan" time="1631525637" percent="14.52" remaining="2355" etc="1631527991"/>
