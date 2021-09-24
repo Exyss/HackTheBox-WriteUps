@@ -1,0 +1,11 @@
+# Nmap 7.92SVN scan initiated Wed Sep 22 21:32:48 2021 as: nmap -sU -o nmap/udpscan -v 10.10.10.248
+Nmap scan report for intelligence.htb (10.10.10.248)
+Host is up (0.043s latency).
+Not shown: 997 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+53/udp  open  domain
+123/udp open  ntp
+389/udp open  ldap
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Wed Sep 22 21:33:04 2021 -- 1 IP address (1 host up) scanned in 15.25 seconds

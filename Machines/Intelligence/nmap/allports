@@ -1,0 +1,28 @@
+# Nmap 7.92SVN scan initiated Thu Sep 23 09:58:21 2021 as: nmap -p- -o nmap/allports -v 10.10.10.248
+Nmap scan report for intelligence.htb (10.10.10.248)
+Host is up (0.049s latency).
+Not shown: 65515 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+53/tcp    open  domain
+80/tcp    open  http
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+5985/tcp  open  wsman
+9389/tcp  open  adws
+49666/tcp open  unknown
+49691/tcp open  unknown
+49692/tcp open  unknown
+49708/tcp open  unknown
+49715/tcp open  unknown
+54018/tcp open  unknown
+
+Read data files from: /usr/local/bin/../share/nmap
+# Nmap done at Thu Sep 23 10:00:07 2021 -- 1 IP address (1 host up) scanned in 106.52 seconds
