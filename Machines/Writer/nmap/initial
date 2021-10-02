@@ -1,0 +1,40 @@
+# Nmap 7.92SVN scan initiated Sat Sep 25 15:44:32 2021 as: nmap -sC -sV -oN nmap/initial -v 10.10.11.101
+Nmap scan report for 10.10.11.101
+Host is up (0.044s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 98:20:b9:d0:52:1f:4e:10:3a:4a:93:7e:50:bc:b8:7d (RSA)
+|   256 10:04:79:7a:29:74:db:28:f9:ff:af:68:df:f1:3f:34 (ECDSA)
+|_  256 77:c4:86:9a:9f:33:4f:da:71:20:2c:e1:51:10:7e:8d (ED25519)
+80/tcp  open  http        Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: HEAD GET OPTIONS
+|_http-title: Story Bank | Writer.HTB
+139/tcp open  netbios-ssn Samba smbd 4.6.2
+445/tcp open  netbios-ssn Samba smbd 4.6.2
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-time: 
+|   date: 2021-09-25T13:59:21
+|_  start_date: N/A
+|_clock-skew: 14m21s
+| nbstat: NetBIOS name: WRITER, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   WRITER<00>           Flags: <unique><active>
+|   WRITER<03>           Flags: <unique><active>
+|   WRITER<20>           Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|_  WORKGROUP<1e>        Flags: <group><active>
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+Read data files from: /usr/local/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep 25 15:45:01 2021 -- 1 IP address (1 host up) scanned in 28.81 seconds
