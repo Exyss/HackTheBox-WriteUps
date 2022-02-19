@@ -225,6 +225,8 @@ After a quick search, we find a [guide made by HackTricks](https://book.hacktric
 
 The user flag is in the home directory.
 
+----------
+
 ## Priviledge Escalation
 
 As we noticed earlier, there's a GNU Screen session running as root. This part is really easy. We have to just run two commands to attach to that running session and become root.

@@ -1,0 +1,1 @@
+[{"url":"http://10.10.11.143/manual","method":"GET","status":"301 Moved Permanently","error":null,"extra":"http://10.10.11.143/manual/"},{"url":"http://10.10.11.143/","method":"GET","status":"403 Forbidden","error":null,"extra":null}]
