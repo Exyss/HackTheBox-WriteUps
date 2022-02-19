@@ -1,0 +1,88 @@
+/proc/1/cmdline /proc/1/cmdline /proc/1/cmdline /sbin/init auto automatic-ubiquity noprompt 
+/proc/486/cmdline /proc/486/cmdline /proc/486/cmdline /lib/systemd/systemd-journald 
+/proc/514/cmdline /proc/514/cmdline /proc/514/cmdline /lib/systemd/systemd-udevd 
+/proc/535/cmdline /proc/535/cmdline /proc/535/cmdline /lib/systemd/systemd-networkd 
+/proc/657/cmdline /proc/657/cmdline /proc/657/cmdline /sbin/multipathd -d -s 
+/proc/658/cmdline /proc/658/cmdline /proc/658/cmdline /sbin/multipathd -d -s 
+/proc/659/cmdline /proc/659/cmdline /proc/659/cmdline /sbin/multipathd -d -s 
+/proc/660/cmdline /proc/660/cmdline /proc/660/cmdline /sbin/multipathd -d -s 
+/proc/661/cmdline /proc/661/cmdline /proc/661/cmdline /sbin/multipathd -d -s 
+/proc/662/cmdline /proc/662/cmdline /proc/662/cmdline /sbin/multipathd -d -s 
+/proc/663/cmdline /proc/663/cmdline /proc/663/cmdline /sbin/multipathd -d -s 
+/proc/678/cmdline /proc/678/cmdline /proc/678/cmdline /lib/systemd/systemd-resolved 
+/proc/681/cmdline /proc/681/cmdline /proc/681/cmdline /lib/systemd/systemd-timesyncd 
+/proc/705/cmdline /proc/705/cmdline /proc/705/cmdline /usr/bin/VGAuthService 
+/proc/714/cmdline /proc/714/cmdline /proc/714/cmdline /usr/bin/vmtoolsd 
+/proc/751/cmdline /proc/751/cmdline /proc/751/cmdline /lib/systemd/systemd-timesyncd 
+/proc/752/cmdline /proc/752/cmdline /proc/752/cmdline /usr/lib/accountsservice/accounts-daemon 
+/proc/753/cmdline /proc/753/cmdline /proc/753/cmdline /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 
+/proc/756/cmdline /proc/756/cmdline /proc/756/cmdline /usr/lib/accountsservice/accounts-daemon 
+/proc/759/cmdline /proc/759/cmdline /proc/759/cmdline /usr/sbin/irqbalance --foreground 
+/proc/761/cmdline /proc/761/cmdline /proc/761/cmdline /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers 
+/proc/762/cmdline /proc/762/cmdline /proc/762/cmdline /usr/sbin/irqbalance --foreground 
+/proc/763/cmdline /proc/763/cmdline /proc/763/cmdline /usr/bin/vmtoolsd 
+/proc/764/cmdline /proc/764/cmdline /proc/764/cmdline /usr/bin/vmtoolsd 
+/proc/765/cmdline /proc/765/cmdline /proc/765/cmdline /usr/sbin/rsyslogd -n -iNONE 
+/proc/766/cmdline /proc/766/cmdline /proc/766/cmdline /lib/systemd/systemd-logind 
+/proc/768/cmdline /proc/768/cmdline /proc/768/cmdline /usr/bin/vmtoolsd 
+/proc/772/cmdline /proc/772/cmdline /proc/772/cmdline /usr/sbin/rsyslogd -n -iNONE 
+/proc/773/cmdline /proc/773/cmdline /proc/773/cmdline /usr/sbin/rsyslogd -n -iNONE 
+/proc/774/cmdline /proc/774/cmdline /proc/774/cmdline /usr/sbin/rsyslogd -n -iNONE 
+/proc/829/cmdline /proc/829/cmdline /proc/829/cmdline /usr/sbin/cron -f 
+/proc/830/cmdline /proc/830/cmdline /proc/830/cmdline /usr/sbin/CRON -f 
+/proc/831/cmdline /proc/831/cmdline /proc/831/cmdline /usr/sbin/CRON -f 
+/proc/849/cmdline /proc/849/cmdline /proc/849/cmdline /bin/sh -c while true;do su user -c "cd /home/user;gdbserver --once 0.0.0.0:1337 /bin/true;"; done 
+/proc/854/cmdline /proc/854/cmdline /proc/854/cmdline su user -c cd /home/user;gdbserver --once 0.0.0.0:1337 /bin/true; 
+/proc/858/cmdline /proc/858/cmdline /proc/858/cmdline /bin/sh -c while true;do sleep 1;find /var/run/screen/S-root/ -empty -exec screen -dmS root \;; done 
+/proc/868/cmdline /proc/868/cmdline /proc/868/cmdline /usr/sbin/atd -f 
+/proc/870/cmdline /proc/870/cmdline /proc/870/cmdline /usr/sbin/apache2 -k start 
+/proc/871/cmdline /proc/871/cmdline /proc/871/cmdline sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups 
+/proc/877/cmdline /proc/877/cmdline /proc/877/cmdline /usr/lib/accountsservice/accounts-daemon 
+/proc/923/cmdline /proc/923/cmdline /proc/923/cmdline SCREEN -dmS root 
+/proc/925/cmdline /proc/925/cmdline /proc/925/cmdline -/bin/bash 
+/proc/933/cmdline /proc/933/cmdline /proc/933/cmdline /usr/lib/policykit-1/polkitd --no-debug 
+/proc/935/cmdline /proc/935/cmdline /proc/935/cmdline /usr/lib/policykit-1/polkitd --no-debug 
+/proc/937/cmdline /proc/937/cmdline /proc/937/cmdline /usr/lib/policykit-1/polkitd --no-debug 
+/proc/946/cmdline /proc/946/cmdline /proc/946/cmdline /lib/systemd/systemd --user 
+/proc/950/cmdline /proc/950/cmdline /proc/950/cmdline (sd-pam) 
+/proc/958/cmdline /proc/958/cmdline /proc/958/cmdline /sbin/agetty -o -p -- \u --noclear tty1 linux 
+/proc/974/cmdline /proc/974/cmdline /proc/974/cmdline /usr/sbin/mysqld 
+/proc/982/cmdline /proc/982/cmdline /proc/982/cmdline bash -c cd /home/user;gdbserver --once 0.0.0.0:1337 /bin/true; 
+/proc/983/cmdline /proc/983/cmdline /proc/983/cmdline gdbserver --once 0.0.0.0:1337 /bin/true 
+/proc/993/cmdline /proc/993/cmdline /proc/993/cmdline /usr/sbin/apache2 -k start 
+/proc/1016/cmdline /proc/1016/cmdline /proc/1016/cmdline /usr/sbin/mysqld 
+/proc/1017/cmdline /proc/1017/cmdline /proc/1017/cmdline /usr/sbin/mysqld 
+/proc/1018/cmdline /proc/1018/cmdline /proc/1018/cmdline /usr/sbin/mysqld 
+/proc/1019/cmdline /proc/1019/cmdline /proc/1019/cmdline /usr/sbin/mysqld 
+/proc/1020/cmdline /proc/1020/cmdline /proc/1020/cmdline /usr/sbin/mysqld 
+/proc/1021/cmdline /proc/1021/cmdline /proc/1021/cmdline /usr/sbin/mysqld 
+/proc/1022/cmdline /proc/1022/cmdline /proc/1022/cmdline /usr/sbin/mysqld 
+/proc/1023/cmdline /proc/1023/cmdline /proc/1023/cmdline /usr/sbin/mysqld 
+/proc/1024/cmdline /proc/1024/cmdline /proc/1024/cmdline /usr/sbin/mysqld 
+/proc/1025/cmdline /proc/1025/cmdline /proc/1025/cmdline /usr/sbin/mysqld 
+/proc/1026/cmdline /proc/1026/cmdline /proc/1026/cmdline /usr/sbin/mysqld 
+/proc/1027/cmdline /proc/1027/cmdline /proc/1027/cmdline /usr/sbin/mysqld 
+/proc/1028/cmdline /proc/1028/cmdline /proc/1028/cmdline /usr/sbin/mysqld 
+/proc/1029/cmdline /proc/1029/cmdline /proc/1029/cmdline /usr/sbin/mysqld 
+/proc/1030/cmdline /proc/1030/cmdline /proc/1030/cmdline /usr/sbin/mysqld 
+/proc/1031/cmdline /proc/1031/cmdline /proc/1031/cmdline /usr/sbin/mysqld 
+/proc/1036/cmdline /proc/1036/cmdline /proc/1036/cmdline /usr/sbin/mysqld 
+/proc/1037/cmdline /proc/1037/cmdline /proc/1037/cmdline /usr/sbin/mysqld 
+/proc/1038/cmdline /proc/1038/cmdline /proc/1038/cmdline /usr/sbin/mysqld 
+/proc/1039/cmdline /proc/1039/cmdline /proc/1039/cmdline /usr/sbin/mysqld 
+/proc/1040/cmdline /proc/1040/cmdline /proc/1040/cmdline /usr/sbin/mysqld 
+/proc/1041/cmdline /proc/1041/cmdline /proc/1041/cmdline /usr/sbin/mysqld 
+/proc/1042/cmdline /proc/1042/cmdline /proc/1042/cmdline /usr/sbin/mysqld 
+/proc/1053/cmdline /proc/1053/cmdline /proc/1053/cmdline /usr/sbin/mysqld 
+/proc/1054/cmdline /proc/1054/cmdline /proc/1054/cmdline /usr/sbin/mysqld 
+/proc/1055/cmdline /proc/1055/cmdline /proc/1055/cmdline /usr/sbin/mysqld 
+/proc/1067/cmdline /proc/1067/cmdline /proc/1067/cmdline /usr/sbin/mysqld 
+/proc/1068/cmdline /proc/1068/cmdline /proc/1068/cmdline /usr/sbin/mysqld 
+/proc/1069/cmdline /proc/1069/cmdline /proc/1069/cmdline /usr/sbin/mysqld 
+/proc/1070/cmdline /proc/1070/cmdline /proc/1070/cmdline /usr/sbin/mysqld 
+/proc/1071/cmdline /proc/1071/cmdline /proc/1071/cmdline /usr/sbin/mysqld 
+/proc/1072/cmdline /proc/1072/cmdline /proc/1072/cmdline /usr/sbin/mysqld 
+/proc/1073/cmdline /proc/1073/cmdline /proc/1073/cmdline /usr/sbin/mysqld 
+/proc/1074/cmdline /proc/1074/cmdline /proc/1074/cmdline /usr/sbin/mysqld 
+/proc/1076/cmdline /proc/1076/cmdline /proc/1076/cmdline /usr/sbin/mysqld 
+/proc/1077/cmdline /proc/1077/cmdline /proc/1077/cmdline /usr/sbin/mysqld 
